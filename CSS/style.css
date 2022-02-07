@@ -44,10 +44,6 @@ label {
     font-size: 10px;
 }
 
-.btn1, .btn2, .btn3:active{
-    background-color: #ed8e53;
-}
-
 
 .btn1 {
   width: 50px;
