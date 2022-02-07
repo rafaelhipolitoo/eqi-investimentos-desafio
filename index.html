@@ -20,19 +20,59 @@
         <div class="simulador">
             <h2>Simulador</h2>
 
-            <div class="btn">
-                <span>Rendimento</span> <br>
-                <div class="rendimento">
-                    <input class="btn1" type="button" value="Bruto">
-                    <input class="btn2" type="button" value="Líquido">
+            <form>
+                <div class="button">
+                    <div class="btn">
+                        <label for="rendimento">Rendimento</label><br>
+                        <input class="btn1" class="btn2"type="button" value="Bruto">
+                        <input class="btn2" type="button" value="Líquido">
+                    </div>
+                    <div class="btn">
+                        <label for="taxa-indexacao">Taxa de Indexação</label><br>
+                        <input class="btn1" type="button" value="PRÉ">
+                        <input class="btn3" type="button" value="PÓS">
+                        <input class="btn2" type="button" value="FIXADO">
+                    </div>
                 </div>
-                
-                <div class="indexacao">
-                    <span>Tipos de Indexação</span><br>
-                    <input class="btn1" type="button" value="PRÉ">
-                    <input class="btn3" type="button" value="PÓS">
-                    <input class="btn2" type="button" value="FIXADO">
+
+                <div class="form">
+                    <div>
+                        <label class="input" for="inicial">Aporte Inicial</label><br><br>
+                        <input type="number" name="" id="">
+                    </div>
+
+                    <div>
+                        <label for="mensal">Aporte Mensal</label><br><br>
+                        <input type="number">
+                    </div>
                 </div>
+
+                <div class="form">
+                    <div>
+                        <label for="prazo">Prazo</label><br><br>
+                        <input type="number">
+                    </div>
+                    <div>
+                        <label for="rentabilidade">Rentabilidade</label><br><br>
+                        <input type="number">
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div>
+                        <label for="ipca">IPCA (ao ano)</label><br><br>
+                        <input type="number">
+                    </div>
+                    <div>
+                        <label for="CDI">CDI (ao ano)</label><br><br>
+                        <input type="number">
+                    </div>
+                </div>
+            </form>
+
+            <div class="bottom">
+                <input class="bottom-btn1" type="button" value="Limpar campos">
+                <input class="bottom-btn2" type="button" value="Simular">
             </div>
 
         </div>

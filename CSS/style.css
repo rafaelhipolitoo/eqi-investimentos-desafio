@@ -1,53 +1,118 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-section{
-    margin: 25px;
-    background-color: #efefef;
-    border-radius: 25px;
-    height: 35em;
+section {
+  margin: 25px;
+  background-color: #efefef;
+  border-radius: 25px;
+  height: 100%;
 }
 
-.titulo, h1{
-    text-align: center;
-    padding: 15px;
+.titulo,
+h1 {
+  text-align: center;
+  padding: 15px;
 }
 
-.simulador{
-    padding: 30px;
+.simulador {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid black;*/
+  padding: 30px;
 }
 
-.btn{
-    display: flex;
-    margin-top: 25px;
+label {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.rendimento{
-    display: flex;
-    margin-top: 5px;
-}
-
-.indexacao{
-    display: flex;
-}
-
-.btn1{
-    border-radius: 8px 0 0 8px;
-}
-
-.btn2{
-    border-radius: 0 8px 8px 0;
+.button {
+  margin: 15px 0 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .btn1, .btn2, .btn3{
     cursor: pointer;
-    width: 60px;
-    height: 35px;
-    border: 1px solid black;
+    font-size: 10px;
 }
 
 
+.btn1 {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid black;
+}
+
+.btn2 {
+  width: 60px;
+  height: 30px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid black;
+}
+
+.btn3 {
+  width: 45px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.btn > input {
+  margin-top: 5px;
+  float: left;
+}
+
+.form {
+  display: flex;
+  padding: 0 0 30px 0;
+  justify-content: space-between;
+}
+
+.input {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+input[type="number"] {
+  background-color: #efefef;
+  width: 130px;
+  box-shadow: 0 1px 0 0;
+    border: 0 none;
+  outline: 0;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.bottom-btn1 {
+  width: 50%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight:750;
+  cursor: pointer;
+  
+}
+
+.bottom-btn2 {
+  width: 50%;
+  height: 40px;
+  border: 0;
+  background-color: #969696;
+  border-radius: 8px;
+  font-weight:750;
+  cursor: pointer;
+  
+}
