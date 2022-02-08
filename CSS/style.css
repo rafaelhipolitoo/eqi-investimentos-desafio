@@ -22,7 +22,7 @@ h1 {
   width: 30%;
   margin: 0;
   padding: 0;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   padding: 30px;
 }
 
@@ -32,18 +32,19 @@ label {
 }
 
 .button {
-  margin: 15px 0 30px 0;
+  margin: 15px 0 25px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: nowrap;
 }
 
-.btn1, .btn2, .btn3{
-    cursor: pointer;
-    font-size: 10px;
+.btn1,
+.btn2,
+.btn3 {
+  cursor: pointer;
+  font-size: 10px;
 }
-
 
 .btn1 {
   width: 50px;
@@ -81,11 +82,11 @@ label {
   outline: 0;
 }
 
-input[type="number"] {
+input[type="text"] {
   background-color: #efefef;
   width: 130px;
   box-shadow: 0 1px 0 0;
-    border: 0 none;
+  border: 0 none;
   outline: 0;
 }
 
@@ -93,7 +94,7 @@ input[type="number"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
 }
 
 .bottom-btn1 {
@@ -101,9 +102,8 @@ input[type="number"] {
   height: 40px;
   border: 1px solid black;
   border-radius: 8px;
-  font-weight:750;
+  font-weight: 750;
   cursor: pointer;
-  
 }
 
 .bottom-btn2 {
@@ -112,7 +112,31 @@ input[type="number"] {
   border: 0;
   background-color: #969696;
   border-radius: 8px;
-  font-weight:750;
+  font-weight: 750;
   cursor: pointer;
-  
+}
+
+.card {
+  background-color: #f4f4f4;
+  width: 150px;
+  height: 80px;
+  border-radius: 5px;
+  text-align: center;
+
+  -webkit-box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.14);
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 50%;
+}
+
+.card > p {
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: bold;
 }
