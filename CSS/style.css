@@ -12,17 +12,33 @@ section {
   height: 100%;
 }
 
-.titulo,
 h1 {
+  font-size: 28px;
   text-align: center;
   padding: 15px;
 }
 
+h2 {
+  font-size: 20px;
+}
+
+.formulario {
+  width: 50%;
+}
+
+.resultado {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .simulador {
-  width: 30%;
+  gap: 100px;
+  width: auto;
+  display: flex;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
   padding: 30px;
 }
 
@@ -117,12 +133,12 @@ input[type="text"] {
 }
 
 .card {
+  margin-top: -75px;
   background-color: #f4f4f4;
   width: 150px;
-  height: 80px;
-  border-radius: 5px;
+  height: 60px;
+  border-radius: 2px;
   text-align: center;
-
   -webkit-box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.14);
 }
@@ -131,7 +147,7 @@ input[type="text"] {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
   width: 50%;
 }
 
