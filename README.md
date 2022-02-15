@@ -1,2 +1,2 @@
-# eqi-investimentos-desafio
+# Desafio FrontEnd Eqi Investimentos
  
