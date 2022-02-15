@@ -39,12 +39,12 @@
                     <div class="form">
                         <div>
                             <label class="input" for="inicial">Aporte Inicial</label><br><br>
-                            <input type="text" name="" id="">
+                            <input type="text" name="" id="" onKeyPress="return(moeda(this,'.',',',event))">
                         </div>
 
                         <div>
                             <label for="mensal">Aporte Mensal</label><br><br>
-                            <input type="text">
+                            <input type="text" onKeyPress="return(moeda(this,'.',',',event))">
                         </div>
                     </div>
 
@@ -85,25 +85,35 @@
                         <h2>Resultado da Simulação</h2>
                     </div>
                     <br>
-        
-                    <div class="card">
-                        <p>Valor Final Bruto</p>
-                    </div>
-                    <div class="card">
-                        <p>Aliquoata de IR</p>
-                    </div>
-                    <div class="card">
-                        <p>Valor Pago em IR</p>
-                    </div>
-                    <div class="card">
-                        <p>Valor Final Liquiído</p>
-                    </div>
-                    <div class="card">
-                        <p>Valor Total Investido</p>
-                    </div>
-                    <div class="card">
-                        <p>Ganho Liquído</p>
-                    </div>
+                    <div class="container">
+                        <div class="card1"><p>Valor Final Bruto</p></div>
+                        <div class="card2"><p>Aliquoata de IR</p></div>
+                        <div class="card3"><p>Valor Pago em IR</p></div>
+                        <div class="card4"><p>Valor Final Liquiído</p></div>
+                        <div class="card5"><p>Valor Total Investido</p></div>
+                        <div class="card6"> <p>Ganho Liquído</p></div>
+                      </div>
+
+                        <!--<div class="card-sesion">
+                            <div class="card">
+                                <p>Valor Final Bruto</p>
+                            </div>
+                            <div class="card">
+                                <p>Aliquoata de IR</p>
+                            </div>
+                            <div class="card">
+                                <p>Valor Pago em IR</p>
+                            </div>
+                            <div class="card">
+                                <p>Valor Final Liquiído</p>
+                            </div>
+                            <div class="card">
+                                <p>Valor Total Investido</p>
+                            </div>
+                            <div class="card">
+                                <p>Ganho Liquído</p>
+                            </div>
+                         </div>-->
         
                 </div>
             </div>
@@ -114,4 +124,5 @@
 
     
 </body>
+    <script src="index.js"></script>
 </html>
