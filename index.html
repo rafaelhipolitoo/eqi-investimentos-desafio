@@ -25,8 +25,8 @@
                     <div class="button">
                         <div class="btn">
                             <label for="rendimento">Rendimento</label><br>
-                            <input class="btn1" type="button" value="Bruto">
-                            <input class="btn2" type="button" value="Líquido">
+                            <input class="btn1-1" type="button" value="Bruto">
+                            <input class="btn2-2" type="button" value="Líquido">
                         </div>
                         <div class="btn">
                             <label for="taxa-indexacao">Taxa de Indexação</label><br>
@@ -39,30 +39,30 @@
                     <div class="form">
                         <div>
                             <label class="input" for="inicial">Aporte Inicial</label><br><br>
-                            <input type="text" name="" id="" onKeyPress="return(moeda(this,'.',',',event))">
+                            <input type="text" name="field" placeholder="R$" onKeyPress="return(moeda(this,'.',',',event))">
                         </div>
 
                         <div>
                             <label for="mensal">Aporte Mensal</label><br><br>
-                            <input type="text" onKeyPress="return(moeda(this,'.',',',event))">
+                            <input type="text" name="field" placeholder="R$" onKeyPress="return(moeda(this,'.',',',event))">
                         </div>
                     </div>
 
                     <div class="form">
                         <div>
-                            <label for="prazo">Prazo</label><br><br>
-                            <input type="text">
+                            <label for="prazo">Prazo (em meses) </label><br><br>
+                            <input type="text" name="prazo">
                         </div>
                         <div>
                             <label for="rentabilidade">Rentabilidade</label><br><br>
-                            <input type="text">
+                            <input type="text" name="rentabilidade">
                         </div>
                     </div>
 
                     <div class="form">
                         <div>
                             <label for="ipca">IPCA (ao ano)</label><br><br>
-                            <input type="text">
+                            <input class="ipca" type="text">
                         </div>
                         <div>
                             <label for="CDI">CDI (ao ano)</label><br><br>
@@ -91,29 +91,8 @@
                         <div class="card3"><p>Valor Pago em IR</p></div>
                         <div class="card4"><p>Valor Final Liquiído</p></div>
                         <div class="card5"><p>Valor Total Investido</p></div>
-                        <div class="card6"> <p>Ganho Liquído</p></div>
-                      </div>
-
-                        <!--<div class="card-sesion">
-                            <div class="card">
-                                <p>Valor Final Bruto</p>
-                            </div>
-                            <div class="card">
-                                <p>Aliquoata de IR</p>
-                            </div>
-                            <div class="card">
-                                <p>Valor Pago em IR</p>
-                            </div>
-                            <div class="card">
-                                <p>Valor Final Liquiído</p>
-                            </div>
-                            <div class="card">
-                                <p>Valor Total Investido</p>
-                            </div>
-                            <div class="card">
-                                <p>Ganho Liquído</p>
-                            </div>
-                         </div>-->
+                        <div class="card6"><p>Ganho Liquído</p></div>
+                    </div>
         
                 </div>
             </div>
