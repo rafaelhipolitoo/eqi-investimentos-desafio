@@ -62,27 +62,27 @@ label {
   font-size: 11px;
 }
 
-.btn2-2:active{
+.btn2-2:focus{
   background-color: #ed8e53;
   color: white;
 }
 
-.btn1-1:active{
+.btn1-1:focus{
   background-color: #ed8e53;
   color: white;
 }
 
-.btn1::active{
+.btn1:focus{
   background-color: #ed8e53;
   color: white;
 }
 
-.btn2:active{
+.btn2:focus{
   background-color: #ed8e53;
   color: white;
 }
 
-.btn3:active{
+.btn3:focus{
   background-color: #ed8e53;
   color: white;
 }
