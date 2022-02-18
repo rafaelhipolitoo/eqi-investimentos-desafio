@@ -28,7 +28,7 @@ O projeto tem como objetivo auxiliar na tomada de decisão acerca de modelos de 
     :construction:  Projeto em construção  :construction:
 </h4>
 
-## :hammer: Funcionalidades do Projeto e Demonstrção da Aplicação
+## :hammer: Funcionalidades e Demonstração da Aplicação
 
 - `Funcionalidade 1`: Definir qual o melhor tipo de indexação
 - `Funcionalidade 2`: Definir valor final liquído
