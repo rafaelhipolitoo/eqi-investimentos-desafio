@@ -16,7 +16,7 @@
 * [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Conclusão](#conclusão)
 
 ## Descrição do Projeto
@@ -40,7 +40,7 @@ O projeto tem como objetivo auxiliar na tomada de decisão acerca de modelos de 
 ![esse](https://user-images.githubusercontent.com/84509152/154597447-ae70890d-2ae7-45bd-b140-d8ea9df0a086.gif)
 
 
-## 📁 Acesso ao projeto
+## 📁 Acesso ao Projeto
 
 Para acessar o projeto <a href="https://rafaelhipolitoo.github.io/eqi-investimentos-desafio/">clink aqui</a>
 
