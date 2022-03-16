@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <h1 align="center">Desafio Front-End - Eqi Investimentos</h1>
 
 ![descrição da imagem](https://edools-3-production.s3.amazonaws.com/org-105417%2Fschool-106529%2F8a2469bf79e950796bc7bcf9dce3775a%2Flogo_eqi.png)
@@ -55,3 +56,5 @@ Este projeto foi realizado para a seleção de Dev Front-Edn na Equi Investiment
 Atualmente me encontro em transição de carreira, tenho apenas alguns meses que comecei a estudar as tecnologia para desenvolvimento Web Front-End, como muita dedicação, persistência e autodidata venho avançando dia a pós dia. Como ainda não tenho conhecimento na linguagem de Java Script decidir participar da seleção desenvolvendo apenas a parte gráfica da aplicação. Espero que gostem!
 
 
+=======
+>>>>>>> Stashed changes
